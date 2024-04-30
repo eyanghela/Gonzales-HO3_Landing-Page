@@ -1,0 +1,166 @@
+
+body {
+  font-family: Georgia;
+  margin: 0%;
+  background-color: #fde5bb;
+  margin-left: 1;
+  margin-right: 1;
+ 
+}
+
+.navbar { 
+  margin-top: auto;
+  height: 100px;
+  background-color: hsl(42, 21%, 65%);
+  background-image: url('hihi - Copy.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.navbar .brand-logo:hover {
+  text-decoration: none;
+}
+
+.navbar .nav-links {
+  display: flex;
+  align-items: right;
+}
+
+.navbar .nav-links li {
+  margin: 10 10px;
+}
+
+.navbar .nav-links li a {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.carousel {
+  height: 400px;
+}
+
+.carousel .carousel-item img {
+
+  width: 150%;
+  height: 150%;
+  object-fit: cover;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.container h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.container button {
+  border-radius: 25px;
+  background-color: #453c2c;
+  color: #ffffff;
+  height: auto;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 30px 50px;
+  border: none;
+  cursor: pointer;
+}
+
+
+a img {
+  width: 100px;
+  height: 100px;
+  ;
+}
+
+.bestsellers, .new-products{
+  color: #ffffff;
+  margin-top: 100px;
+   margin-bottom: 10px;
+   font:arial,Georgia;
+   padding: 1px;
+   background-color: #685230;
+   display: flex;
+   
+   
+ }
+
+
+.categories {
+  color: #ffffff;
+ margin-top: 100px;
+  font:arial,Georgia;
+  padding: 1px;
+  background-color: #685230;
+  display: flex;
+}
+.row2 {
+  color: #ffffff;
+  align-self: center;
+  margin-bottom: 10px;
+  font:arial,Georgia;
+  background-color: #685230;
+  display: flex;
+}
+
+.product img {
+
+  width: 300px; 
+  height: auto; 
+  margin: 10px;
+}
+
+.product img h3 {
+  font:Georgia;
+  font-style:bold;
+  font-size: medium;
+}
+
+
+footer {
+
+  background-color: #453c2c;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+.social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.social-icons li a {
+    color: #fff;
+    font-size: 20px;
+}
+
+    .footer-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-nav ul li {
+  display: inline;
+  margin-right: 50px;
+}
+
+.footer-nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
